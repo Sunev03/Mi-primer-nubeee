@@ -2,24 +2,85 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Monitor Cloud</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay de Limón Frío</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; background: #f4f4f9; padding: 50px; }
-        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; }
-        h1 { color: #333; }
-        #mensaje { font-size: 24px; color: #2ecc71; font-weight: bold; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #f7f9f2; 
+            padding: 30px; 
+            display: flex;
+            justify-content: center;
+        }
+        .receta-card { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+            max-width: 500px;
+            text-align: left;
+        }
+        h1 { 
+            color: #2e7d32; 
+            text-align: center;
+            margin-top: 0;
+            font-size: 26px;
+        }
+        .badge {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+            font-size: 18px;
+            border-bottom: 2px solid #a5d6a7;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        ul, ol {
+            padding-left: 20px;
+            color: #444;
+            line-height: 1.6;
+        }
+        li {
+            margin-bottom: 8px;
+        }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Mi Aplicación en la Nube</h1>
-        <p>Este es un mensaje desplegado en la web:</p>
-        <div id="mensaje">Hola Mundo</div>
+    <div class="receta-card">
+        <h1>Pay de Limón Frío 🍋</h1>
+        <div style="text-align: center;">
+            <span class="badge">❄️ Sin Horno • Fácil</span>
+        </div>
+
+        <h2>Ingredientes</h2>
+        <ul>
+            <li>1 lata de Leche Condensada (397g)</li>
+            <li>1 lata de Leche Evaporada (360g)</li>
+            <li>1/2 taza de jugo de limón fresco (aproximadamente 6-8 limones)</li>
+            <li>1 o 2 paquetes de galletas María</li>
+            <li>Ralladura de limón (opcional, para decorar)</li>
+        </ul>
+
+        <h2>Preparación</h2>
+        <ol>
+            <li><strong>Licuar la mezcla:</strong> Vierte la leche condensada y la leche evaporada en la licuadora. Comienza a licuar y agrega poco a poco el jugo de limón hasta que la mezcla espese.</li>
+            <li><strong>Formar las capas:</strong> En un refractario o molde, coloca una capa base de galletas María.</li>
+            <li><strong>Cubrir:</strong> Vierte una capa de la mezcla de limón sobre las galletas, asegurándote de cubrirlas bien.</li>
+            <li><strong>Repetir:</strong> Continúa alternando capas de galleta y crema de limón hasta llenar el molde (la última capa debe ser de crema).</li>
+            <li><strong>Refrigerar:</strong> Decora con ralladura de limón en la superficie y mete al refrigerador por lo menos <strong>4 horas</strong> (o durante toda la noche para una mejor consistencia).</li>
+        </ol>
     </div>
 
     <script>
-        // Imprimimos el mensaje en la consola del navegador
-        console.log("Hola Mundo desde JavaScript");
+        console.log("¡Receta cargada con éxito! Listo para preparar.");
     </script>
 </body>
 </html>
